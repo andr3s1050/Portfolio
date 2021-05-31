@@ -7,10 +7,10 @@
 
   <body>
     <header>
+      <figure>
+        <img src="resources/images/logo-alpha.png" alt="Site logo" />
+      </figure>
       <nav>
-        <figure>
-          <img src="resources/images/logo-alpha.png" alt="Site logo" />
-        </figure>
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
@@ -19,7 +19,7 @@
     </header>
 
     <main>
-      <section class="content" id="home">
+      <section class="home" id="home">
         <figure>
           <img src="resources/images/robot.jpg" alt="Picture of myself" />
         </figure>
@@ -30,58 +30,64 @@
         </h1>
       </section>
 
-      <section>
+      <section class="about">
         <h2>
           <a id="about">About</a>
         </h2>
         <article>
           <p>
-            I'm Andres Gonzalez, a software engineer. I like to read, listen
-            to music and learn new things. I'm looking for a job where I can
-            apply my knowledge and keep learning to become a better engineer.
+            I'm Andres Gonzalez, a software engineer. I like to read, listen to
+            music and learn new things. I'm looking for a job where I can apply
+            my knowledge and keep learning to become a better engineer.
           </p>
         </article>
       </section>
 
       <section>
         <h2>Skills</h2>
-        <figure>
-          <img src="resources/images/html.png" alt="HTML logo" />
-          <figcaption>HTML</figcaption>
-        </figure>
-        <figure>
-          <img src="resources/images/css.png" alt="CSS logo" />
-          <figcaption>CSS</figcaption>
-        </figure>
-        <figure>
-          <img src="resources/images/js.png" alt="JavaScript logo" />
-          <figcaption>JavaScript</figcaption>
-        </figure>
+        <section class="skills">
+          <figure>
+            <img src="resources/images/html.png" alt="HTML logo" />
+            <figcaption>HTML</figcaption>
+          </figure>
+          <figure>
+            <img src="resources/images/css.png" alt="CSS logo" />
+            <figcaption>CSS</figcaption>
+          </figure>
+          <figure>
+            <img src="resources/images/js.png" alt="JavaScript logo" />
+            <figcaption>JavaScript</figcaption>
+          </figure>
+        </section>
       </section>
 
       <section>
         <h2><a id="projects">Projects</a></h2>
-        <ul>
-          <li><a href="#">Dasmoto's Arts & Crafts</a></li>
-          <li><a href="#">Excursion app website</a></li>
-          <li><a href="#">Mr Robot Enterprises</a></li>
-        </ul>
+        <section class="projects">
+          <ul>
+            <li><a href="#">Dasmoto's Arts & Crafts</a></li>
+            <li><a href="#">Excursion app website</a></li>
+            <li><a href="#">Mr Robot Enterprises</a></li>
+          </ul>
+        </section>
       </section>
 
       <section>
         <h2><a id="contact">Contact</a></h2>
-        <figure>
-          <img src="resources/images/mail.png" alt="Mail" />
-          <figcaption>Mail Me</figcaption>
-        </figure>
-        <figure>
-          <img src="resources/images/github.png" alt="GitHub" />
-          <figcaption>Follow Me</figcaption>
-        </figure>
-        <figure>
-          <img src="resources/images/linkedin.png" alt="LinkedIn" />
-          <figcaption>Follow Me</figcaption>
-        </figure>
+        <section class="contact">
+          <figure class="mail">
+            <img src="resources/images/mail.png" alt="Mail" />
+            <figcaption>Mail Me</figcaption>
+          </figure>
+          <figure class="github">
+            <img src="resources/images/github.png" alt="GitHub" />
+            <figcaption>Follow Me</figcaption>
+          </figure>
+          <figure class="linkedin">
+            <img src="resources/images/linkedin.png" alt="LinkedIn" />
+            <figcaption>Follow Me</figcaption>
+          </figure>
+        </section>
       </section>
 
       <footer>
