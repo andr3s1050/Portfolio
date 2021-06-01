@@ -6,20 +6,21 @@
   </head>
 
   <body>
-    <header>
+    <header class="nav-bar">
       <figure>
         <img src="resources/images/logo-alpha.png" alt="Site logo" />
       </figure>
       <nav>
         <a href="#home">Home</a>
         <a href="#about">About</a>
+        <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
 
     <main>
-      <section class="home" id="home">
+      <section class="content" id="home">
         <figure>
           <img src="resources/images/robot.jpg" alt="Picture of myself" />
         </figure>
@@ -30,22 +31,26 @@
         </h1>
       </section>
 
-      <section class="about">
+      <section>
         <h2>
           <a id="about">About</a>
         </h2>
-        <article>
-          <p>
-            I'm Andres Gonzalez, a software engineer. I like to read, listen to
-            music and learn new things. I'm looking for a job where I can apply
-            my knowledge and keep learning to become a better engineer.
-          </p>
-        </article>
+        <section class="content">
+          <article>
+            <p>
+              I'm Andres Gonzalez, a software engineer. I like to read, listen
+              to music and learn new things. I'm looking for a job where I can
+              apply my knowledge and keep learning to become a better engineer.
+            </p>
+          </article>
+        </section>
       </section>
 
       <section>
-        <h2>Skills</h2>
-        <section class="skills">
+        <h2>
+          <a id="skills">Skills</a>
+        </h2>
+        <section class="content">
           <figure>
             <img src="resources/images/html.png" alt="HTML logo" />
             <figcaption>HTML</figcaption>
@@ -63,27 +68,43 @@
 
       <section>
         <h2><a id="projects">Projects</a></h2>
-        <section class="projects">
+        <section class="content">
           <ul>
-            <li><a href="#">Dasmoto's Arts & Crafts</a></li>
-            <li><a href="#">Excursion app website</a></li>
-            <li><a href="#">Mr Robot Enterprises</a></li>
+            <li>
+              <a
+                href="https://andr3s1050.github.io/Dasmoto-web-page/"
+                target="_blank"
+                >Dasmoto's Arts & Crafts</a
+              >
+            </li>
+            <li>
+              <a href="https://andr3s1050.github.io/Excursion/" target="_blank"
+                >Excursion app website</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://andr3s1050.github.io/Mr-Robot-Entreprises/"
+                target="_blank"
+                >Mr Robot Enterprises</a
+              >
+            </li>
           </ul>
         </section>
       </section>
 
       <section>
         <h2><a id="contact">Contact</a></h2>
-        <section class="contact">
-          <figure class="mail">
+        <section class="content">
+          <figure>
             <img src="resources/images/mail.png" alt="Mail" />
             <figcaption>Mail Me</figcaption>
           </figure>
-          <figure class="github">
+          <figure>
             <img src="resources/images/github.png" alt="GitHub" />
             <figcaption>Follow Me</figcaption>
           </figure>
-          <figure class="linkedin">
+          <figure>
             <img src="resources/images/linkedin.png" alt="LinkedIn" />
             <figcaption>Follow Me</figcaption>
           </figure>
@@ -92,7 +113,7 @@
 
       <footer>
         <article>
-          <p>&copy Andres Gonzalez 2021</p>
+          <p>&copy Andres Gonzalez, 2021</p>
           <p>All Rights Reserved</p>
         </article>
       </footer>
