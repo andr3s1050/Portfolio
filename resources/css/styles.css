@@ -32,6 +32,7 @@ img {
 
 figcaption {
   text-align: center;
+  margin: 10px;
 }
 
 section {
@@ -48,14 +49,8 @@ footer {
 /*Classes styles*/
 
 .nav-bar img {
-  width: 50px;
-  height: 50px;
-}
-
-.logo img {
-  width: 65px;
-  height: 65px;
-  float: left;
+  width: 75px;
+  height: 75px;
 }
 
 .content {
@@ -70,6 +65,8 @@ footer {
 .content img {
   width: 120px;
   height: 120px;
+  display: flex;
+  justify-content: center;
 }
 
 /*ID styles*/
@@ -85,7 +82,7 @@ footer {
 
 @media only screen and (max-width: 800px), (orientation: portrait) {
   body {
-    font-size: 1.25em;
+    font-size: 2em;
   }
 
   figcaption {
@@ -95,6 +92,17 @@ footer {
 
   footer {
     font-size: 0.75em;
+  }
+
+  .nav-bar img {
+    width: 2.5em;
+    height: 2.5em;
+    margin: auto;
+  }
+
+  .content img {
+    text-align: center;
+    margin: auto;
   }
 }
 
